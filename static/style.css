@@ -1,5 +1,5 @@
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Outfit', sans-serif; 
   margin: 0px;
   box-sizing: border-box;
   background-color: hsl(217, 54%, 11%);
@@ -14,9 +14,9 @@ body {
     display: flex;
     flex-direction: column;
     background-color: hsl(216, 50%, 16%);
-    border-radius: 10px;
-    height: 520px;
-    width: 300px;
+    border-radius: 16px;
+    height: 580px;
+    width: 340px;
     box-shadow: 0px -1px 7px 6px hsl(217, 54%, 11%);
 }
 .product-img {
@@ -26,12 +26,12 @@ body {
 }
 .cadr-image {
     width: 90%;
-    height: 87%;
+    height: 93%;
     overflow: hidden;
     cursor: pointer;
     margin: 6%;
     position: relative;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .cadr-image::after {
     content: "";
@@ -57,50 +57,51 @@ body {
     opacity: 1;
 }
 
-
 .create img {
     display: flex;
-    height: 24px;
-    width: 10%;
+    height: 32px;
+    width: 35px;
     border: 1px solid white;
     border-radius: 50%;
+    margin-top: 10px;
 }
 .detail {
-    margin-top: -5px;
     margin-left: 20px;
     color: hsl(0, 0%, 100%);
 }
-.detail h6 {
+.detail h2 {
     display: inline-block;
+    font-weight: initial;
 }
-.detail h6:hover {
+.detail h2:hover {
     cursor: pointer;
     color: hsl(178, 100%, 50%);
 }
 .detail p {
     color: hsl(215, 51%, 70%);
-    font-size: 14px;
+    font-size: 18px;
     user-select: none;
-    margin-top: 5px;
     margin-right: 10px;
-    margin-bottom: 20px;
+    margin-top: 2px;
 }
 .RT {
     display: flex;
     justify-content: space-between;
-    height: 15px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 8px;
 }
 .ethereum {
     display: flex;
 }
 .ethereum img {
     width: 16%;
+    margin-top: 4px;
+    height: 18px;
 }
 .ethereum span {
     color: hsl(178, 100%, 50%);
-    font-size: 12px;
+    font-size: 18px;
     margin-left: 5px;
     user-select: none;
 }
@@ -109,10 +110,12 @@ body {
 }
 .time img {
     width: 16%;
+    height: 18px;
+    margin-top: 4px;
 }
 .time span {
     color: hsl(215, 51%, 70%);
-    font-size: 12px;
+    font-size: 18px;
     margin-left: 5px;
     user-select: none;
 }
@@ -122,14 +125,14 @@ body {
 }
 .create p {
     color: hsl(215, 51%, 70%);
-    font-size: 12px;
-    margin-left: 10px;
-    margin-top: 7px;
+    font-size: 18px;
+    margin-left: 15px;
     user-select: none;
 }
 .create p span {
     color: white;
-    font-size: 12px;
+    font-size: 18px;
+
 }
 .create p span:hover {
     cursor: pointer;
@@ -137,14 +140,12 @@ body {
 }
 hr {
     width: 85%;
-    display: flex;
     justify-content: center;
-    color: hsl(215, 51%, 70%);
-    margin-top: 20px;
-    margin-bottom: 15px;
+    border-color: hsl(215, 51%, 70%);
 }
 .card>hr {
     margin-right: 0px;
+    margin-top: 20px;
     margin-left: 20px;
 }
 
